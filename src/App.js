@@ -30,12 +30,9 @@ function App() {
     // const todos = useRef();
     const onSubmit2 = (e) => {
         e.preventDefault();
-        // console.log(checkbox1.current.value);
-
-        if(checkbox1.checked) console.log(checkbox1.current.value);
-        if(checkbox2.checked) console.log(checkbox2.current.value);
-        if(checkbox3.checked) console.log(checkbox3.current.value);
-
+        if(checkbox1.current.checked) console.log(checkbox1.current.value);
+        if(checkbox2.current.checked) console.log(checkbox2.current.value);
+        if(checkbox3.current.checked) console.log(checkbox3.current.value);
     }
 
 
